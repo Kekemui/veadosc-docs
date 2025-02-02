@@ -1,0 +1,18 @@
+site_name: My Docs
+theme:
+  features:
+    - search.highlight
+    - search.suggest
+  name: material
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: teal
+plugins: 
+  - search
+  - offline
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+site_dir: build
